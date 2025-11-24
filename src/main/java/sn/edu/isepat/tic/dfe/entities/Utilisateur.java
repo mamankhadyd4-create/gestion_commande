@@ -1,11 +1,9 @@
 package sn.edu.isepat.tic.dfe.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-public class utilisateur {
+@Entity
+public class Utilisateur {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY) // permet d'auto inclementer
     private long id;

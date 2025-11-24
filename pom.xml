@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sn.edu.isepat.tic.dfe</groupId>
+    <artifactId>gestion_commande</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

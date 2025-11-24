@@ -6,6 +6,8 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
         <!-- Vos entités -->
+        <class>sn.edu.isepat.tic.dfe.entities.Utilisateur</class>
+        <class>sn.edu.isepat.tic.dfe.entities.Profil</class>
 
         <properties>
             <!-- JDBC -->
